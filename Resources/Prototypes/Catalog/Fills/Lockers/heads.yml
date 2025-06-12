@@ -272,6 +272,7 @@
       prob: 0.25
       # Fuck the HoP they don't deserve fucking cigars.
       # Yes they do fuck you.
+      # bloat
     - id: ClothingBackpackIan
       prob: 0.5
     - id: ClothingHeadsetAltCommand # Goobstation
@@ -285,7 +286,7 @@
     - id: WeaponDisabler
     - id: ClothingEyesHudCommand
     - id: ServiceTechFabCircuitboard # Goobstation - Service Techfab
-    - id: SyringePoisonFent #KS - the HOP can have fent
+    - id: Syringe #HOP Fentlord took all his fent before shiftstart, KS
 
 - type: entity
   id: LockerHeadOfPersonnelFilled

@@ -40,3 +40,5 @@
   contrabandInventory:
     BalloonNT: 2
     LuxuryPen: 1
+  emaggedInventory:
+    SyringePoisonFentUsed: 1 #KS, HOP smuggles fent into sector

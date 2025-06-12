@@ -9,12 +9,17 @@
 - type: vendingMachineInventory
   id: TankDispenserEVAInventory
   startingInventory:
-    OxygenTankFilled: 10
-    NitrogenTankFilled: 10
+    OxygenTankFilled: 15
+    NitrogenTankFilled: 5 #KS, Specism is real
+  emaggedInventory:
+    ClothingMaskGasSyndicate: 1 #KS
+#Surely it would be more efficient to have it so the engi one calls the normal inventory and adds engi gear?
 
 - type: vendingMachineInventory
   id: TankDispenserEngineeringInventory
   startingInventory:
     PlasmaTankFilled: 10
-    NitrogenTankFilled: 10
-    OxygenTankFilled: 10
+    NitrogenTankFilled: 5 #KS, Specism is real
+    OxygenTankFilled: 15
+  emaggedInventory:
+    ClothingMaskGasSyndicate: 1 #KS
