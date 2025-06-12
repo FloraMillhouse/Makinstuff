@@ -138,8 +138,6 @@
   - type: StationAiHeld
   - type: StationAiOverlay
   - type: ShowElectrocutionHUD
-  - type: SiliconSyncableMaster #ai slaving ported from mira to KS14
-  - type: SiliconSyncableMasterCommander
   - type: ActionGrant
     actions:
     - ActionJumpToCore

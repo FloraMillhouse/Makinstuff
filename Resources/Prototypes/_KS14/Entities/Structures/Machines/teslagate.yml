@@ -1,11 +1,11 @@
 
 
 - type: entity
-  parent: BaseMachinePowered
+  parent: [ BaseMachinePowered, ConstructibleMachine ]
   id: TeslaGate
   name: tesla gate
   suffix: "1x1, 3.2 sec"
-  description: It keeps people like you from walking through. Looks sturdy. There's a label on the side
+  description: "It keeps people like you from walking through. Looks sturdy. There's a label on the side reading, 'STAND CLEAR!'"
   placement:
     mode: SnapgridCenter
   components:
@@ -38,7 +38,7 @@
           Ready: { state: coil_anim }
           Active: { state: coil_anim }
   - type: Machine
-    board: TeslaGateCircuitboard
+    board: TeslaGateMachineCircuitboard
   - type: Sprite
     drawdepth: Overdoors
     sprite: _KS14/Structures/Machines/teslagate.rsi
@@ -109,7 +109,7 @@
 
 - type: entity
   parent: BaseMachineCircuitboard
-  id: TeslaGateCircuitboard
+  id: TeslaGateMachineCircuitboard
   name: tesla gate machine board
   description: An electronics board used in a tesla gate.
   components:

@@ -51,7 +51,9 @@ public sealed class AutoLinkSystem : EntitySystem
     public void AutoLink(Entity<AutoLinkTransmitterComponent?> transmitter)
     {
         var uid = transmitter.Owner;
-        if (!Resolve(transmitter, ref transmitter.Comp))
+
+        // We don't actually NEED this resolved.
+        if (!Resolve(transmitter, ref transmitter.Comp, logMissing: false))
             return;
 
         var component = transmitter.Comp;

@@ -556,3 +556,7 @@
 
 - type: Tag
   id: TemplarHelmet
+
+#fixing weswords
+- type: Tag
+  id: WelderExperimental

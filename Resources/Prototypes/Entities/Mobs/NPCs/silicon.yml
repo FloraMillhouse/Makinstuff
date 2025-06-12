@@ -279,23 +279,6 @@
   - type: NoSlip
   - type: Insulated
   - type: StationAiWhitelist
-  - type: SiliconSyncableSlave
-  - type: SiliconSyncableSlaveAiRadial
-  - type: UserInterface
-    interfaces:
-      enum.AiUi.Key:
-        type: StationAiBoundUserInterface
-  - type: SiliconSyncableSlaveCommandable
-    pathSprites:
-      PathFound:
-        sprite: Markers/ai_commanding.rsi
-        state: planning
-      Moving:
-        sprite: Markers/ai_commanding.rsi
-        state: moving
-      NoPath:
-        sprite: Markers/ai_commanding.rsi
-        state: no_path
 
 - type: entity
   parent: MobSiliconBase

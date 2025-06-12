@@ -10,7 +10,7 @@
   id: SecurityBoardsStaticGoob
   recipes:
   - ContrabandDetectorCircuitboard
-  - TeslaGateCircuitboard # KS14 -- Tesla Gate
+  - TeslaGateMachineCircuitboard # KS14 -- Tesla Gate
 
 ## Dynamic
 - type: latheRecipePack

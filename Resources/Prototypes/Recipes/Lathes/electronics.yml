@@ -796,6 +796,7 @@
 # Assmos - /tg/ gases
 - type: latheRecipe
   parent: BaseCircuitboardRecipe
+  icon: { sprite: _Funkystation/Structures/Machines/electrolyzer.rsi, state: electrolyzerOff } # Goobstation
   id: ElectrolyzerMachineCircuitboard
   result: ElectrolyzerMachineCircuitboard
 
@@ -809,5 +810,6 @@
 # Assmos - Crystallizer
 - type: latheRecipe
   parent: BaseCircuitboardRecipe
+  icon: { sprite: _Funkystation/Structures/Machines/crystallizer.rsi, state: off } # Goobstation
   id: CrystallizerMachineCircuitboard
   result: CrystallizerMachineCircuitboard

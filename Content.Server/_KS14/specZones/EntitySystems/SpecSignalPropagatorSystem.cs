@@ -19,7 +19,7 @@ public sealed class SignalPropagatorSystem : EntitySystem
     // This is a bit stupid.
     private int _unaccumulatedPropagators = 0;
 
-    // How many seconds from compinit does this
+    // How many seconds from compinit does this autolink?
     private const float PropagatorUpdateTimer = 15f;
 
     public override void Initialize()
