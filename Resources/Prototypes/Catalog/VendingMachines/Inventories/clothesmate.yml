@@ -153,3 +153,16 @@
     ToyFigurineGreytider: 1
     ClothingBackpackSatchelSmugglerUnanchored: 1
   # DO NOT ADD MORE, USE UNIFORM DYING
+  emaggedInventory:
+    ClothingHeadHatCentcomcap: 1
+    ClothingEyesGlassesCommand: 1
+    ClothingUniformJumpskirtOperative: 2
+    ClothingUniformJumpsuitOperative: 2
+    ClothingBackpackSyndicate: 1
+    ClothingHeadPyjamaSyndicateBlack: 1
+    BedsheetSyndie: 2
+    SyndieHandyFlag: 1
+    ClothingUniformJumpsuitChiefEngineerSyndie: 1
+    ToyFigurineFootsoldier: 1
+    ClothingUniformJumpsuitSyndieFormal: 1
+    ClothingUniformJumpskirtSyndieFormalDress: 1

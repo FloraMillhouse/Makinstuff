@@ -44,6 +44,7 @@
 #  conditions:
 #  - !type:ListingLimitedStockCondition
 #    stock: 1
+# For revenant rework, take a look at the above.
 
 - type: listing
   id: RevenantMalfunction
