@@ -1,0 +1,8 @@
+- type: trait
+  id: BrittishAccent
+  name: trait-brittish-name
+  description: trait-brittish-desc
+  category: SpeechTraits
+  cost: 1
+  components:
+  - type: BrittishAccent
