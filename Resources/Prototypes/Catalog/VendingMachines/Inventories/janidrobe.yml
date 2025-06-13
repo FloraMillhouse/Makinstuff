@@ -28,6 +28,7 @@
     ClothingHeadsetService: 2
     ClothingOuterWinterJani: 2
     ClothingNeckScarfStripedPurple: 3
+    CleanerGrenade: 3 #KS, until jani gets dedicated equipment vend.
   contrabandInventory:
     ToyFigurineJanitor: 1
   emaggedInventory:

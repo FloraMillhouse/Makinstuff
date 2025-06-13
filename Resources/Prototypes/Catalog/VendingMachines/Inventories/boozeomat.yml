@@ -147,3 +147,6 @@
     DrinkBottleOfNothingFull: 1
   emaggedInventory:
     DrinkPoisonWinebottleFull: 2
+    DrinkNukieCan: 1 #KS
+    DrinkJarWhat: 1 #KS
+    UnlitMolotov: 3 #KS, made it 3 so with good placement you can deny a hall

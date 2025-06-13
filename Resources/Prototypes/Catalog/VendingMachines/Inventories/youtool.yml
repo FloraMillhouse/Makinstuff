@@ -49,5 +49,6 @@
   contrabandInventory:
     Multitool: 2
     ClothingBeltUtility: 3
+    SyndicateBombFake: 1 #KS, some dumbass left a bomb in the youtool, luckily its just a fake.
   emaggedInventory:
     ClothingHandsGlovesColorYellow: 1

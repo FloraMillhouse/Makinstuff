@@ -67,6 +67,7 @@
     FoodBakedBunHotX: 2
     DrinkWineBottleFull: 1
     ToyFigurineChaplain: 1
+    ToyFigurineCosmicCultist: 1 #KS
   emaggedInventory:
     ClothingOuterArmorCult: 1
     ClothingHeadHelmetCult: 1
