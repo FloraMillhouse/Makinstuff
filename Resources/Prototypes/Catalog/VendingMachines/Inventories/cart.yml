@@ -40,7 +40,6 @@
   contrabandInventory:
     BalloonNT: 2
     LuxuryPen: 1
-    WehMedipen: 1
+    WehMedipen: 1 #KS
   emaggedInventory:
     SyringePoisonFentUsed: 1 #KS, HOP smuggles fent into sector
-
