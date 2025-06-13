@@ -1392,14 +1392,14 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.7
-        Slash: 0.3 # Goobstation - CBURN should protect against zombie attacks
+        Blunt: 0.5 # KS, zeds deal brute aswell
+        Slash: 0.5 # KS, zeds deal brute and slash dumbass
         Piercing: 0.3
-        Heat: 0.10
-        Cold: 0.10
-        Shock: 0.15
+        Heat: 0.2 #KS changes heat cold shock and caustic because its overtuned for what CBURN is
+        Cold: 0.2
+        Shock: 0.2
         Radiation: 0.1
-        Caustic: 0.1
+        Caustic: 0.5
   - type: ClothingSpeedModifier
     walkModifier: 1.0
     sprintModifier: 1.0
