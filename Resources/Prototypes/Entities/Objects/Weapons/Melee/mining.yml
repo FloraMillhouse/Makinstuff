@@ -232,13 +232,14 @@
     capacity: 1
     count: 1
   - type: MeleeWeapon
-    attackRate: 0.8 # Lavaland Change (slightly faster than fireaxe, still weaker damage wise)
+    attackRate: 0.9 #KS, undoing mald
     animationRotation: -45 # WWDP
     wideAnimationRotation: -135
     damage:
       types:
-        Blunt: 10 # Lavaland Change: no damage when unwielded2
-        Slash: 5
+        Blunt: 15 # Lavaland Change: no damage when unwielded2
+        Slash: 10
+        Structural: 40 #KS, undoing maldprs
     soundHit:
       collection: MetalThud
   - type: Wieldable
@@ -251,8 +252,8 @@
   - type: DamageBoostOnMarker
     boost:
       types: # Totals to 70 damage when hitting marked targets
-        Blunt: 32
-        Slash: 18
+        Blunt: 10
+        Slash: 10
     backstabBoost: # And 30 extra for a backstab. Adding up to 100
       types:
         Blunt: 19
