@@ -39,8 +39,8 @@
     attackRate: 3
     damage:
       types:
-        Slash: 4
-        Blunt: 4
+        Slash: 2
+        Blunt: 2
         Structural: 6
     soundHit:
       path: /Audio/Weapons/chainsaw.ogg

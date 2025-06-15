@@ -9,14 +9,14 @@ public sealed class BigotAccentComponentAccentSystem : EntitySystem
 
     private static readonly IReadOnlyDictionary<string, string[]> Letters = new Dictionary<string, string[]>()
     {
-        { "Hello",  ["AY DICKHEAD"] },
-        { "Hi",  ["OI YOU PIXIE"] },
-        { "Lizard",  ["LIGGA"] },
-        { "Moth",  ["LAMP-OBSESED-PIXIE"] },
-        { "gay",  ["NOB"] },
+        { "Hello",  ["YOU"] },
+        { "Hi",  ["LISTEN HERE"] },
+        { "Lizard",  ["LIZZZAAARRDDD"] },
+        { "Moth",  ["LAMP-OBSESED FUCKERS"] },
         { "I",  ["I, A TRUE REAL PERSON,"] },
-        { "Cargo",  ["MONEY HOARDING", "BANKERS"] },
-        { "QM",  ["THE GLOBAL ELITE"] },
+        { "Cargo",  ["MONEY HOARDING", "THOSE WHO KNOW"] },
+        { "QM",  ["THE ELITE", "NT INSIDER"] },
+        { "Security", "Sec", ["SHITSEC!!!"]}
     };
 
     public override void Initialize()
