@@ -125,6 +125,9 @@
     children:
     - id: BoxSyringe
     - id: BoxBeaker
+    - id: IndustrialBeaker #KS
+      amount: !type:ConstantNumberSelector
+        value: 2
     - id: BoxBeaker
       prob: 0.3
     - id: BoxPillCanister
