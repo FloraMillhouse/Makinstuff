@@ -130,3 +130,8 @@
   id: DetectiveCoatGrey
   equipment:
     outerClothing: ClothingOuterCoatDetectiveLoadoutGrey
+
+- type: loadout
+  id: DiscoBlazer
+  equipment:
+    outerClothing: ClothingOuterCoatDiscoBlazer
