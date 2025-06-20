@@ -1,0 +1,25 @@
+- type: entity
+  name: Industrial Beaker
+  parent: BaseBeaker
+  description: A big metalic beaker, built by someone.
+  id: IndustrialBeaker
+  components:
+  - type: Spillable
+    solution: beaker
+  - type: Sprite
+    sprite: Objects/Specific/Chemistry/beaker_industrial.rsi
+    layers:
+      - state: beakerindustrial
+  - type: Item
+    size: Normal
+    sprite: Objects/Specific/Chemistry/beaker_industrial.rsi
+  - type: SolutionContainerManager
+    solutions:
+      beaker:
+        maxVol: 240
+  - type: Appearance
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: StaticPrice
+    price: 20
