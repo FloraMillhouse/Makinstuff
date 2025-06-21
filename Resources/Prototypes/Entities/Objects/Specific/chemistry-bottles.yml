@@ -138,7 +138,7 @@
   - type: SolutionContainerManager
     solutions:
       drink: # This solution name and target volume is hard-coded in ChemMasterComponent
-        maxVol: 30
+        maxVol: 40 # ks change
   - type: MixableSolution
     solution: drink
   - type: RefillableSolution
@@ -272,10 +272,10 @@
   - type: SolutionContainerManager
     solutions:
       drink: # This solution name and target volume is hard-coded in ChemMasterComponent
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Epinephrine
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleRobustHarvest
@@ -287,10 +287,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: RobustHarvest
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleEZNutrient
@@ -302,10 +302,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: EZNutrient
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleLeft4Zed
@@ -317,10 +317,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Left4Zed
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleUnstableMutagen
@@ -332,10 +332,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: UnstableMutagen
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleNocturine
@@ -347,10 +347,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Nocturine
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleEphedrine
@@ -362,10 +362,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Ephedrine
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleOmnizine
@@ -377,10 +377,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Omnizine
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   parent: BaseChemistryBottleFilled
@@ -392,10 +392,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Cognizine
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottlePax
@@ -407,10 +407,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Pax
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleMuteToxin
@@ -422,10 +422,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: MuteToxin
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleLead
@@ -437,10 +437,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Lead
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleToxin
@@ -452,10 +452,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Toxin
-          Quantity: 30
+          Quantity: 40
 
 # Base reagent bottles
 - type: entity
@@ -468,10 +468,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Aluminium
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleCarbon
@@ -483,10 +483,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Carbon
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleChlorine
@@ -498,10 +498,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Chlorine
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleCopper
@@ -513,10 +513,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Copper
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleEthanol
@@ -528,10 +528,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Ethanol
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleFluorine
@@ -543,10 +543,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Fluorine
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleHydrogen
@@ -558,10 +558,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Hydrogen
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleIodine
@@ -573,10 +573,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Iodine
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleIron
@@ -588,10 +588,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Iron
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleLithium
@@ -603,10 +603,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Lithium
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleMercury
@@ -618,10 +618,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Mercury
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleNitrogen
@@ -633,10 +633,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Nitrogen
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleOxygen
@@ -648,10 +648,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Oxygen
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottlePhosphorus
@@ -663,10 +663,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Phosphorus
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottlePotassium
@@ -678,10 +678,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Potassium
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleRadium
@@ -693,10 +693,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Radium
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleSilicon
@@ -708,10 +708,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Silicon
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleSodium
@@ -723,10 +723,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Sodium
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleSugar
@@ -738,10 +738,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Sugar
-          Quantity: 30
+          Quantity: 40
 
 - type: entity
   id: ChemistryBottleSulfur
@@ -753,7 +753,7 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 40 # ks change
         reagents:
         - ReagentId: Sulfur
-          Quantity: 30
+          Quantity: 40

@@ -1230,7 +1230,7 @@
   description: uplink-cameraBug-desc
   productEntity: CameraBug
   cost:
-    Telecrystal: 4
+    Telecrystal: 12
   categories:
   - UplinkDisruption
 

@@ -80,7 +80,7 @@
 - type: gameMap
   id: Gate
   mapName: 'Gate Station'
-  mapPath: /Maps/_Goobstation/gate.yml
+  mapPath: /Maps/_KS14/gate.yml
   minPlayers: 55
   stations:
     Gate:
@@ -142,6 +142,7 @@
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
+            Prisoner: [ -1, -1 ]
             #silicon
             StationAi: [ 1, 1 ]
             Borg: [ 2, 2 ]

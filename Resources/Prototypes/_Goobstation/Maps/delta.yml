@@ -7,7 +7,7 @@
 - type: gameMap
   id: Delta
   mapName: 'Delta Station'
-  mapPath: /Maps/_Goobstation/delta.yml
+  mapPath: /Maps/_KS14/delta.yml
   minPlayers: 55
   stations:
     Delta:
@@ -70,6 +70,7 @@
             ServiceWorker: [ 3, 3 ]
             Zookeeper: [ 1, 1 ]
             Passenger: [ -1, -1 ]
+            Prisoner: [ -1, -1 ]
             # silicon
             StationAi: [ 1, 1 ]
             Borg: [ 2, 3 ]

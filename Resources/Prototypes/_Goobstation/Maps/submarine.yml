@@ -10,7 +10,7 @@
 - type: gameMap
   id: Submarine
   mapName: 'Submarine'
-  mapPath: /Maps/_Goobstation/submarine.yml
+  mapPath: /Maps/_KS14/submarine.yml
   minPlayers: 60
   stations:
     Submarine:
@@ -28,6 +28,7 @@
           #civilian
             Passenger: [ -1, -1 ]
             Librarian: [ 1, 1 ]
+            Prisoner: [ -1, -1 ]
           #command
             Captain: [ 1, 1 ]
             NanotrasenRepresentative: [ 1, 1 ]

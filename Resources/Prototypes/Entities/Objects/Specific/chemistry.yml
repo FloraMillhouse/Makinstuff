@@ -187,7 +187,7 @@
   - type: SolutionContainerManager
     solutions:
       beaker:
-        maxVol: 50
+        maxVol: 60 #ks change
   - type: MixableSolution
     solution: beaker
   - type: FitsInDispenser
@@ -288,7 +288,7 @@
   - type: SolutionContainerManager
     solutions:
       beaker:
-        maxVol: 50
+        maxVol: 60 #ks change
   - type: MixableSolution
     solution: beaker
   - type: FitsInDispenser
@@ -353,10 +353,10 @@
   - type: SolutionContainerManager
     solutions:
       beaker:
-        maxVol: 50
+        maxVol: 60 # ks change
         reagents:
         - ReagentId: Cryoxadone
-          Quantity: 50
+          Quantity: 60
 
 - type: entity
   name: large beaker
@@ -379,7 +379,7 @@
   - type: SolutionContainerManager
     solutions:
       beaker:
-        maxVol: 100
+        maxVol: 180 # ks change
   - type: Appearance
   - type: SolutionContainerVisuals
     maxFillLevels: 6
@@ -409,7 +409,7 @@
   - type: SolutionContainerManager
     solutions:
       beaker:
-        maxVol: 60
+        maxVol: 120 # ks change
         canReact: false
   - type: PhysicalComposition #Goobstation - Recycle update
     materialComposition:

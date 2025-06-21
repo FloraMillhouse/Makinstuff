@@ -31,7 +31,7 @@
 - type: gameMap
   id: OriginHighPop
   mapName: 'Origin'
-  mapPath: /Maps/_Goobstation/origin.yml
+  mapPath: /Maps/_KS14/origin.yml
   minPlayers: 85
   stations:
     Origin:
@@ -95,6 +95,7 @@
             Mime: [ 2, 2 ]
             Musician: [ 3, 3 ]
             Boxer: [ 2, 2 ]
+            Prisoner: [ -1, -1 ]
 
         # Goobstation blob-config-start HUGE
         - type: StationBlobConfig

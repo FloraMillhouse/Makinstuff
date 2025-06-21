@@ -39,7 +39,7 @@
 - type: gameMap
   id: Atlas
   mapName: Atlas
-  mapPath: /Maps/_Goobstation/atlas.yml
+  mapPath: /Maps/_KS14/atlas.yml
   minPlayers: 5
   maxPlayers: 20
   stations:
@@ -98,6 +98,7 @@
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
             Lawyer: [ 1, 1 ]
+            Prisoner: [ -1, -1 ]
 
         # Goobstation blob-config-start SMALL+
         - type: StationBlobConfig

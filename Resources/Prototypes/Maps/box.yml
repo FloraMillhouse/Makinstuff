@@ -89,7 +89,7 @@
 - type: gameMap
   id: Box
   mapName: 'Box Station'
-  mapPath: /Maps/_Goobstation/box.yml # Goobstation
+  mapPath: /Maps/_KS14/box.yml # Goobstation
   minPlayers: 30 # Goobstation return minPlayers requirement for maps
   maxPlayers: 85 # Goobstation - Limit mappool to highpop versions of maps only
   stations:
@@ -151,6 +151,7 @@
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
+            Prisoner: [ -1, -1 ]
             #silicon
             StationAi: [ 1, 1 ]
             Borg: [ 2, 3 ]

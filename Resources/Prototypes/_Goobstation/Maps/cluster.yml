@@ -34,7 +34,7 @@
 - type: gameMap
   id: Cluster
   mapName: 'Cluster'
-  mapPath: /Maps/_Goobstation/cluster.yml
+  mapPath: /Maps/_KS14/cluster.yml
   minPlayers: 10
   maxPlayers: 35
   stations:
@@ -95,6 +95,7 @@
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
+            Prisoner: [ -1, -1 ]
 
         # Goobstation blob-config-start SMALL+
         - type: StationBlobConfig
