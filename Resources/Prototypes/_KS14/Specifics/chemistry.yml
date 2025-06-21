@@ -9,7 +9,7 @@
   - type: Sprite
     sprite: _KS14/Objects/Specific/Chemistry/beaker_industrial.rsi
     layers:
-      - state: beakerindustrial
+      - state: beaker_industrial
   - type: Item
     size: Normal
     sprite: _KS14/Objects/Specific/Chemistry/beaker_industrial.rsi
