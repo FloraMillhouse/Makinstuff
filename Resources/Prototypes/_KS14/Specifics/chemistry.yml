@@ -7,12 +7,12 @@
   - type: Spillable
     solution: beaker
   - type: Sprite
-    sprite: Objects/Specific/Chemistry/beaker_industrial.rsi
+    sprite: _KS14/Objects/Specific/Chemistry/beaker_industrial.rsi
     layers:
       - state: beakerindustrial
   - type: Item
     size: Normal
-    sprite: Objects/Specific/Chemistry/beaker_industrial.rsi
+    sprite: _KS14/Objects/Specific/Chemistry/beaker_industrial.rsi
   - type: SolutionContainerManager
     solutions:
       beaker:
