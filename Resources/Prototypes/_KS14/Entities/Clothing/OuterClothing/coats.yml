@@ -2,7 +2,7 @@
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, ClothingOuterArmorBase]
   id: ClothingOuterCoatDiscoBlazer
   name: disco ass blazer
-  description: For the best of larping detectives!
+  description: In it your face... Adorned...
   components:
   - type: Sprite
     sprite: _KS14/Clothing/OuterClothing/Coats/discoassblazer.rsi
