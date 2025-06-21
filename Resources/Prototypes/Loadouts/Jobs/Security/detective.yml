@@ -94,6 +94,11 @@
   equipment:
     neck: ClothingNeckTieDet
 
+- type: loadout #KS
+  id: DiscoTie
+  equipment:
+    neck: ClothingNeckTieDisco
+
 # Jumpsuit
 - type: loadout
   id: DetectiveJumpsuit
