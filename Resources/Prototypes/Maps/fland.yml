@@ -44,7 +44,7 @@
 - type: gameMap
   id: Fland
   mapName: 'Fland Installation'
-  mapPath: /Maps/_Goobstation/fland.yml # Goobstation - SM
+  mapPath: /Maps/_KS14/fland.yml # Goobstation - SM
   minPlayers: 40 # Goobstation return minPlayers requirement for maps
   maxPlayers: 85 # Goobstation - Limit mappool to highpop versions of maps only
   stations:
@@ -106,6 +106,7 @@
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
+            Prisoner: [ -1, -1 ]
             #silicon
             StationAi: [ 1, 1 ]
             Borg: [ 2, 2 ]

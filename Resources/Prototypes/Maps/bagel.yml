@@ -82,7 +82,7 @@
 - type: gameMap
   id: Bagel
   mapName: 'Bagel Station'
-  mapPath: /Maps/_Goobstation/bagel.yml # Goobstation - custom bagel
+  mapPath: /Maps/_KS14/bagel.yml # Goobstation - custom bagel
   minPlayers: 35
   maxPlayers: 80
   stations:
@@ -144,6 +144,7 @@
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
             Reporter: [ 2, 2 ]
+            Prisoner: [ -1, -1 ]
             #silicon
             StationAi: [ 1, 1 ]
             Borg: [ 2, 2 ]

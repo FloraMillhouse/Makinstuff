@@ -9,7 +9,7 @@
 - type: gameMap
   id: Chloris
   mapName: 'Chloris'
-  mapPath: /Maps/_Goobstation/chloris.yml
+  mapPath: /Maps/_KS14/chloris.yml
   minPlayers: 80
   stations:
     Chloris:
@@ -70,6 +70,7 @@
             ServiceWorker: [ 3, 4 ]
             Zookeeper: [ 1, 1 ]
             Passenger: [ -1, -1 ]
+            Prisoner: [ -1, -1 ]
             # silicon
             StationAi: [ 1, 1 ]
             Borg: [ 2, 3 ]

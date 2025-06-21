@@ -480,7 +480,11 @@ public sealed partial class GoobCVars
         CVarDef.Create("shuttle.max_speed", 60f, CVar.SERVERONLY);
 
     #region Grid impacts
-
+    /// <summary>
+    /// Whether shuttle impacts should do anything beyond produce a sound. KS14 - this fucking shit is exactly why i fume at goob.
+    /// </summary>
+    public static readonly CVarDef<bool> ImpactEnabled =
+        CVarDef.Create("shuttle.impact.enabled", true, CVar.SERVERONLY);
     /// <summary>
     /// Minimum impact inertia to trigger special shuttle impact behaviors when impacting slower than MinimumImpactVelocity.
     /// </summary>

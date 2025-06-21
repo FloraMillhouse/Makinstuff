@@ -146,8 +146,9 @@
   id: Pulse
   damage:
     types:
-      Heat: 40 # Goobstation
+      Heat: 50 # slight buff
       Blunt: 5 # Split damage is cool. - Goobstation
+      Structural: 80 # A laser of pure super heated plasma that cant DESTROY? well now it can
   muzzleFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_blue

@@ -34,7 +34,7 @@
 - type: gameMap
   id: Packed
   mapName: 'Packed'
-  mapPath: /Maps/_Goobstation/packed.yml # Goobstation
+  mapPath: /Maps/_KS14/packed.yml # Goobstation
   minPlayers: 7
   maxPlayers: 35
   stations:
@@ -94,6 +94,7 @@
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
+            Prisoner: [ -1, -1 ]
             #silicon
             StationAi: [ 1, 1 ]
             Borg: [ 1, 1 ]

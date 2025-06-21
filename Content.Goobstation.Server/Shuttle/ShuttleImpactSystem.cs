@@ -57,7 +57,7 @@ public sealed partial class ShuttleImpactSystem : EntitySystem
     [Dependency] private readonly SharedTransformSystem _transform = default!;
     [Dependency] private readonly StunSystem _stuns = default!;
     [Dependency] private readonly ThrowingSystem _throwing = default!;
-
+    private bool _enabled;
     private float MinimumImpactInertia;
     private float MinimumImpactVelocity;
     private float TileBreakEnergyMultiplier;
@@ -84,6 +84,7 @@ public sealed partial class ShuttleImpactSystem : EntitySystem
     {
         SubscribeLocalEvent<ShuttleComponent, StartCollideEvent>(OnShuttleCollide);
 
+        Subs.CVar(_cfg, GoobCVars.ImpactEnabled, value => _enabled = value, true);
         Subs.CVar(_cfg, GoobCVars.MinimumImpactInertia, value => MinimumImpactInertia = value, true);
         Subs.CVar(_cfg, GoobCVars.MinimumImpactVelocity, value => MinimumImpactVelocity = value, true);
         Subs.CVar(_cfg, GoobCVars.TileBreakEnergyMultiplier, value => TileBreakEnergyMultiplier = value, true);
@@ -193,6 +194,12 @@ public sealed partial class ShuttleImpactSystem : EntitySystem
         var volume = MathF.Min(10f, 1f * MathF.Pow(jungleDiff, 0.5f) - 5f);
         var audioParams = AudioParams.Default.WithVariation(SharedContentAudioSystem.DefaultVariation).WithVolume(volume);
         _audio.PlayPvs(_shuttleImpactSound, coordinates, audioParams);
+
+        // if we're not enabled, stop after playing sound
+        if (!_enabled)
+        {
+            return;
+        }
 
         // Convert the collision point directly to tile indices
         var ourTile = new Vector2i((int)Math.Floor(ourPoint.X / ourGrid.TileSize), (int)Math.Floor(ourPoint.Y / ourGrid.TileSize));

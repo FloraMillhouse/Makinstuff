@@ -33,7 +33,7 @@
 - type: gameMap
   id: OasisHighPop
   mapName: 'Oasis'
-  mapPath: /Maps/_Goobstation/oasis.yml
+  mapPath: /Maps/_KS14/oasis.yml
   minPlayers: 85
   stations:
     Oasis:
@@ -97,6 +97,7 @@
             Clown: [ 2, 2 ]
             Mime: [ 2, 2 ]
             Musician: [ 3, 3 ]
+            Prisoner: [ -1, -1 ]
 
         # Goobstation blob-config-start HUGE
         - type: StationBlobConfig

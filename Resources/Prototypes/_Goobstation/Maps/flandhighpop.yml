@@ -37,7 +37,7 @@
 - type: gameMap
   id: FlandHighPop
   mapName: 'Fland Installation'
-  mapPath: /Maps/_Goobstation/fland.yml
+  mapPath: /Maps/_KS14/fland.yml
   minPlayers: 85
   stations:
     Fland:
@@ -98,6 +98,7 @@
             Clown: [ 2, 2 ]
             Mime: [ 2, 2 ]
             Musician: [ 3, 3 ]
+            Prisoner: [ -1, -1 ]
             #silicon
             StationAi: [ 1, 1 ]
             Borg: [ 4, 4 ]

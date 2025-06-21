@@ -121,7 +121,7 @@
   - type: SolutionContainerManager
     solutions:
       beaker:
-        maxVol: 30
+        maxVol: 40
   - type: MixableSolution
     solution: beaker
   - type: RefillableSolution
@@ -205,10 +205,10 @@
   - type: SolutionContainerManager
     solutions:
       beaker:
-        maxVol: 30
+        maxVol: 40
         reagents:
         - ReagentId: Vestine
-          Quantity: 30
+          Quantity: 40
   - type: Tag
     tags: []
 
@@ -241,7 +241,7 @@
         reagents:
           - ReagentId: Chlorine
             Quantity: 5
-            
+
 - type: entity
   id: PlasmaChemistryVial
   parent: BaseChemistryEmptyVial
@@ -256,3 +256,4 @@
         reagents:
           - ReagentId: Plasma
             Quantity: 10
+

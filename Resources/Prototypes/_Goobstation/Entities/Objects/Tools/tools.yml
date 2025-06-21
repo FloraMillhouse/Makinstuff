@@ -95,7 +95,6 @@
   components:
   - type: LimitedCharges # KS14 - Buffed charges
     maxCharges: 100000
-    charges: 100000
   - type: UseDelay
     delay: 0.1
   - type: AutoRecharge

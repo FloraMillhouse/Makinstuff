@@ -93,7 +93,7 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 100
+        maxVol: 120 #ks change
   - type: MixableSolution
     solution: drink
   - type: Drink

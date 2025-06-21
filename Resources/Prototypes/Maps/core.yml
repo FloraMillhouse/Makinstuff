@@ -28,7 +28,7 @@
 - type: gameMap
   id: Core
   mapName: 'Core'
-  mapPath: /Maps/_Goobstation/core.yml # Goobstation
+  mapPath: /Maps/_KS14/core.yml # Goobstation
   minPlayers: 35
   maxPlayers: 70
   stations:
@@ -91,6 +91,7 @@
             Musician: [ 1, 1 ]
             Boxer: [ 2, 2 ]
             Reporter: [ 2, 2 ]
+            Prisoner: [ -1, -1 ]
             # silicon
             StationAi: [ 1, 1 ]
             Borg: [ 2, 2 ]

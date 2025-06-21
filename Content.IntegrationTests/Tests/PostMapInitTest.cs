@@ -174,18 +174,18 @@ namespace Content.IntegrationTests.Tests
             "/Maps/Shuttles/ShuttleEvent/instigator.yml", // Contains EXP-320g "Friendship"
             "/Maps/Shuttles/ShuttleEvent/syndie_evacpod.yml", // Contains syndicate rubber stamp
             // Goobstation maps/map versions; it's kinda a big TODO rn
-            "/Maps/_Goobstation/bagel.yml",
-            "/Maps/_Goobstation/barratry.yml",
-            "/Maps/_Goobstation/cluster.yml",
-            "/Maps/_Goobstation/amber.yml",
-            "/Maps/_Goobstation/kettle.yml",
-            "/Maps/_Goobstation/lambda.yml",
-            "/Maps/_Goobstation/leonid.yml",
-            "/Maps/_Goobstation/submarine.yml",
+            "/Maps/_KS14/bagel.yml",
+            "/Maps/_KS14/barratry.yml",
+            "/Maps/_KS14/cluster.yml",
+            "/Maps/_KS14/amber.yml",
+            "/Maps/_KS14/kettle.yml",
+            "/Maps/_KS14/lambda.yml",
+            "/Maps/_KS14/leonid.yml",
+            "/Maps/_KS14/submarine.yml",
             "/Maps/_Goobstation/Nonstations/wizden.yml", // Obviously
             "/Maps/_Lavaland/Lavaland/ruin_toyshop.yml", // I think we might want to glob these, idk
-            "/Maps/_Goobstation/loop.yml",
-            "/Maps/_Goobstation/gate.yml",
+            "/Maps/_KS14/loop.yml",
+            "/Maps/_KS14/gate.yml",
             "/Maps/_Goobstation/Shuttles/consul.yml", // Contains HEINOUS amounts of centcomm contraband. Obviously.
             "/Maps/_Goobstation/Shuttles/retort_assault.yml", // ERT ships
             "/Maps/_Goobstation/Shuttles/retort_medical.yml",

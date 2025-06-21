@@ -133,6 +133,7 @@
   - Visitor
   - Zookeeper
   - ServiceWorker
+  - Prisoner # KS14
 
 - type: department
   id: CentralCommand

@@ -284,7 +284,6 @@ SpawnPointForensicMantis: null
 SpawnPointLocationMidRoundAntag: null
 SpawnPointMartialArtist: null
 SpawnPointMedicalBorg: null
-SpawnPointPrisoner: null
 SpawnPointPrisonGuard: null
 SpeedLoaderSpecialPractice: null
 SuitStorageCorpsman: null
@@ -909,7 +908,7 @@ ClothingMaskBlushingClown: ClothingMaskSexyMime
 ClothingNeckGoldAutismPin: ClothingNeckAutismPin
 MachineMaterialSilo: null
 CrateMaterialSilo: null
-  
+
 # 2025-03-29
 ClothingBackpackDuffelSyndicateRaidBundle: ClothingBackpackSyndicateRaidBundle
 
@@ -957,3 +956,7 @@ PlushieBlackburn: null
 PlushieBlackburnMatryoskya: null
 PlushieDesislavaBlackburn: null
 PlushieBlackburnKobliska: null
+
+# KS - replacing justaweekaway poster with ks leaders poster and removed plushiebyrrnegibbed 20-06-2025
+PosterLegitJustAWeekAway: PosterLegitKSLeaders
+PlushieByrrneGibbed: null
