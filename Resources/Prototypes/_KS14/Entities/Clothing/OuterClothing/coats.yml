@@ -5,9 +5,9 @@
   description: For the best of larping detectives!
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Coats/discoassblazer.rsi
+    sprite: _KS14/Clothing/OuterClothing/Coats/discoassblazer.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Coats/discoassblazer.rsi
+    sprite: _KS14/Clothing/OuterClothing/Coats/discoassblazer.rsi
   - type: StorageFill
     contents:
     - id: SmokingPipeFilledTobacco

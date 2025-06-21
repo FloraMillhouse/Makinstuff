@@ -130,8 +130,8 @@
   id: DetectiveCoatGrey
   equipment:
     outerClothing: ClothingOuterCoatDetectiveLoadoutGrey
-
-- type: loadout
+# KS from below.
+- type: loadout #KS, DiscoLarp is real.
   id: DiscoBlazer
   equipment:
     outerClothing: ClothingOuterCoatDiscoBlazer
